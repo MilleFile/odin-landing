@@ -64,7 +64,7 @@ a {
     color: white;
     font-weight: bold;
     cursor: pointer;
-    padding: 0px 32px;
+    padding: 8px 32px;
     border-radius: 8px;
 }
 
@@ -131,6 +131,43 @@ a {
     font-weight: bold;
 }
 
+.fourthbody {
+    padding: 75px 150px;
+}
+
+.bluesection {
+    background-color:#3882F6;
+    padding: 25px 75px;
+    display: flex;
+    flex-direction: row;
+}
+
+.calltoaction {
+    margin-right: auto;
+}
+
+.fourthtitle {
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+.fourthsubtitle {
+        color: #E5E7EB;
+}
+
+.fourthbody .signup {
+    background-color:  #3882F6;
+    border: 2px solid;
+    border-color: white;
+}
+
+.buttoncontain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
     color: #E5E7EB;
     font-size: 18px;
@@ -138,5 +175,5 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 0px;
+    padding: 24px 0px;
 }
